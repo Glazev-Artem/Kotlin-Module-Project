@@ -1,3 +1,7 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main() {
+    println("Добро пожаловать в приложение 'Заметки'!")
+    val menuHelper = Menu()
+    val archivesMenu = ArchivesMenu(menuHelper)
+    archivesMenu.show()
+    println("Программа завершена. До свидания!")
 }
